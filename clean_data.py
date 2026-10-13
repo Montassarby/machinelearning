@@ -7,7 +7,7 @@ from src.cleaning import clean_lines
 
 
 def read(path):
-    with open(path, encoding="utf-8") as fh:      # échoue si l'encodage n'est pas UTF-8
+    with open(path, encoding="utf-8-sig") as fh:      # échoue si l'encodage n'est pas UTF-8
         return fh.read().splitlines()
 
 
