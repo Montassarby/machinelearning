@@ -1,0 +1,6 @@
+.venv/
+data/
+data_clean/
+data_split/
+__pycache__/
+*.pyc
